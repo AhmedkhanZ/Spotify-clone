@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: bisque;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    font-family : 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color:white;
+}
+
+nav ul li{
+    padding :0px 12px;
+}
+
+.brand img{
+    width:52px;
+    padding:0px 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 70.6vh;
+    background-color: black;
+    color: white;
+    font-family : 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 74.7%;
+    border-radius: 13px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+}
+
+.bottom{
+    position:sticky;
+    bottom: 0;
+    height: 120px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    margin-top: 14px;  
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    min-width: 80vw;   
+    cursor: pointer;
+}
+
+.songItemContainer{
+  margin-top: 45px;
+}
+
+.songItem{
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: white;
+   color: black;
+   margin: 12px 0px;
+   padding: 0px 15px;
+   
+   border-radius: 34px;
+}
+
+.songItem img{
+ width: 45px;
+ margin: 0px 8px;
+ border-radius: 34px;
+}
+
+.timestamp{
+    padding: 0px 17px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position:absolute;
+    left: 10vw;
+    font-family : 'Varela Round', sans-serif;
+}
+.songInfo img{
+    opacity: 0;
+    width: 90px;
+    transition: opacity 0.4s ease-in;
+}
+#masterSong{
+    position: relative;
+    margin-right: auto;
+    left: 2vw;
+}
